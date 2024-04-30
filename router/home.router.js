@@ -2,7 +2,7 @@ import express from 'express';
 
 let router = express.Router();
 
-router.get("/", (req,res)=>{
+router.get("/home", (req,res)=>{
     res.render("home");
 })
 router.get("/login", (req,res)=>{
