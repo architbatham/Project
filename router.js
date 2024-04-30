@@ -11,29 +11,5 @@ app.get("/",(req,res)=>{
     res.send("<h1>/ or /home Url invoked </h1>" + urlRoute)
 });
 
-app.get("/about",(req,res)=>{
-    res.send("<h1>/about Url invoked </h1>"+ urlRoute)
-});
-
-app.get("/contact",(req,res)=>{
-    res.send("<h1>/contcat Url invoked </h1>"+ urlRoute)
-});
-
-app.get("/service",(req,res)=>{
-    res.send("<h1>/service Url invoked </h1>"+ urlRoute)
-});
-
-app.get("/register",(req,res)=>{
-    res.send("<h1>/register Url invoked </h1>"+ urlRoute)
-});
-//step 3 create url 
-app.get("/login",(req,res)=>{
-    // var urlobj = url.parse(req.url,true).query;
-    // console.log("Username = "+ urlobj.username);
-    // console.log("Password = "+ urlobj.password);//extract url
-    res.send("<h1>/login Url invoked </h1>"+ urlRoute)
-});
-
-
 app.listen(3000);
 console.log("Server invoked at link--> http://localhost:3000");
