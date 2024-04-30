@@ -31,7 +31,7 @@ app.get("/login",(req,res)=>{
     // var urlobj = url.parse(req.url,true).query;
     // console.log("Username = "+ urlobj.username);
     // console.log("Password = "+ urlobj.password);//extract url
-    
+//hhhhhhhhhhhhhhhh
     res.send("<h1>/login Url invoked </h1>"+ urlRoute)
 });
 
