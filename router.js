@@ -4,7 +4,7 @@ import url from 'url';//step 2 import url module for taking data
 const app = express()//top level function
 
 
-import homerouter from './router/home.router';
+import homerouter from './router/home.router.js';
 app.use("/",homerouter);
 
 app.set("view engine", "ejs");
