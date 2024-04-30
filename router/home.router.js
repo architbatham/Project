@@ -5,13 +5,13 @@ let router = express.Router();
 router.get("/", (req,res)=>{
     res.render("home");
 })
-router.render("/login", (req,res)=>{
+router.get("/login", (req,res)=>{
     res.render("login");
 })
-router.render("/contact", (req,res)=>{
+router.get("/contact", (req,res)=>{
     res.render("contact");
 })
-router.render("/about", (req,res)=>{
+router.get("/about", (req,res)=>{
     res.render("about");
 })
 
